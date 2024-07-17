@@ -9,7 +9,6 @@ def welcome():
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json()
-    # Aquí puedes agregar la lógica de predicción
     result = {"prediction": True}
     return jsonify(result)
 
