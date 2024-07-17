@@ -132,7 +132,8 @@ Copiar código
 **Respuesta esperada:**
 
 json
-
-`{
+```bash
+{
   "prediction": true
-}`
+}
+```
